@@ -1,0 +1,33 @@
+*{
+    font-family: cursive;
+    margin: 0;
+}
+div nav{
+    background-color: black;
+    color:white;
+    width: 100%;
+    margin-top: 0;
+}
+div nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    cursor: pointer;
+    display: flex;
+    float: left;
+}
+div nav a span{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-right: 1050px;
+    cursor: pointer;
+    display: flex;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    color: black; 
+    font-weight: 800;
+    margin-top:0;
+}
