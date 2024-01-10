@@ -1,0 +1,53 @@
+body{
+                
+    background-image: url('accs.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 490px 600px;
+    font-family: sans-serif;
+    }
+    .estimate-form{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-20% -20%);
+    width: 350px;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+ }
+ .menu_bar{
+    background-color:  rgb(241, 59, 71);
+    color: rgb(250, 250, 250);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 0 5%;
+ }
+ 
+ h1{
+   
+   
+    height: 80px;
+     width: 100%;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+     img{
+        align-self:right;
+     }
+     input{
+       size: 30px;
+       max-width: 200px;
+     }
+     span{
+        max-height: 30px;
+        max-width: 200px;
+        border: 20px;
+        box-sizing: border-box;
+        box-shadow: 20%;
+      }
