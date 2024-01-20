@@ -2,10 +2,13 @@
     font-family: cursive;
     margin: 0;
 }
+body{
+    background-color: #e1eedd;
+}
 nav{
     width: 100%;
     height: 4rem;
-    background-color: #f6c543;
+    background-color: gold;
     display: flex;
 }
 nav a{
@@ -24,17 +27,47 @@ nav #search{
 }
 .div{
     height: 550px;
-    width: 450px;
+    width: 350px;
     display: inline-block;
-    margin-left:25px;
+    margin-left:100px;
     margin-right:25px;
     border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    transition: 1s;
+}
+.div:hover{
+    box-shadow: 5px 5px 12px  rgb(94, 124, 224);
+}
+video{
+    height: 550px;
+    width: 350px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 .h1{
     height: 50px;
-    width: 450px;
+    width: 250px;
     display: inline-block;
-    margin-left:25px;
-    margin-right:25px;
+    margin-left:150px;
+    margin-right:75px;
     border: 1px solid gray;
+    border-radius: 10px;
+    transition: 1s;
+}
+.btn-h{
+    width: 250px;
+    height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    background-color: #183a1d;
+    color: white;
+}
+.btn-h:hover{
+    box-shadow: 2px 2px 8px green;
+    background-color: gold;
+    color: black;
 }
